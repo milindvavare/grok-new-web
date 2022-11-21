@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html data-wf-domain="web.meetcleo.com" data-wf-page="6201853d34460bcdf37cbd6c" data-wf-site="60b118690f8e028ab7d93790" lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Grok</title>    
+   
+      <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+      <link href="https://assets-global.website-files.com/60b118690f8e028ab7d93790/css/cleo-website.8e882d23c.min.css" rel="stylesheet" type="text/css"/>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+
+    <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+
+
+      <link href="img/Favicon-Grok.png" rel="shortcut icon" type="image/x-icon"/>
+      <link href="img/Favicon-Grok.png" rel="apple-touch-icon"/>
+
+      
+      <style>.anti-flicker-hide { opacity: 0 !important}</style>
+      <style type="text/css">
+         /* Hiding blocking and fixing bits */
+         .overlay { pointer-events: none; }
+         a.w-webflow-badge { display:none!important; }
+         .asterix { vertical-align: super; }
+         /* Colour variables */
+         body {
+         -webkit-font-smoothing: antialiased;
+         --cleo-blue: #341CFF;
+         --cleo-blue-tint: #4C50F6;
+         --trusty-blue: #F2F6FF;
+         --trusty-blue-tint: #D6E1FF;
+         --gold: #FFE36D;
+         --gold-tint: #FFF0D5;
+         --bloop: #4C50F6;
+         --bloop-tint: #7189FB;
+         --dollar-green: #63FFB1;
+         --dollar-green-tint: #4EE499;
+         --purp: #6100FF;
+         --purp-tint: #669EFF;
+         --naughty-navy: #21248D;
+         --naughty-navy-tint: #3E42C2;
+         --lit-purple: #CA8BFC;
+         --lit-purple-tint: #B77CE5;
+         --soft-cream: #FFF0D5;
+         --soft-cream-tint: #FFE4B2;
+         --roast-red: #E5606A;
+         --roast-red-tint: #FA828E;
+         }
+         /* Forcing elements to pick up colour theming */
+         a { color: inherit; }
+         .nav-primary-item { color: inherit; }
+         #logo-background,
+         #logo-text { transition: fill 400ms cubic-bezier(.215, .61, .355, 1); }
+         .dash,
+         .divider { background-color: currentColor; }
+         .nav-menu + .header-container { box-shadow: 0 1px 0 0 currentColor; }
+         .button-secondary { box-shadow: inset 0 0 0 2px currentColor; }
+         /* Testimonial slideshow  */
+         .testimonial-item {
+         display: inline-block;
+         vertical-align: middle;
+         }
+         .testimonial-list { display:block !important; }
+         .slick-prev:hover,
+         .slick-prev:focus,
+         .slick-next:hover,
+         .slick-next:focus { outline: none; }
+         .slick-slide, .slick-slide *{ outline: none !important; }
+         /* Spacing for elements in button groups */
+         .button-group { grid-gap: 16px; }
+         .button-group:first-child { margin-top: 0; }
+         /* Hover styling */
+         .underline-hover {
+         transition: background-size 0.4s cubic-bezier(.215, .61, .355, 1), color 0.4s cubic-bezier(.215, .61, .355, 1);
+         background-image: linear-gradient(to right, currentColor 100%, transparent 100%);
+         background-position: 100% 100%;
+         background-size: 0% 2px;
+         background-repeat: no-repeat;
+         }
+         .underline-hover:hover {
+         opacity: 1;
+         background-position: 0% 100%;
+         background-size: 100% 2px;
+         }
+         .underline-hover.w--current {
+         box-shadow: inset 0 -2px currentColor;
+         }
+         .main-menu-link .main-menu-title {
+         transition: color 0.4s cubic-bezier(.215, .61, .355, 1);
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: #fff;
+         }
+         .main-menu-link:hover .main-menu-title,
+         .main-menu-link.w--current .main-menu-title {
+         color: transparent;
+         }
+         /* Setting 100% viewport height without the header height */
+         @media screen and (min-width: 992px) {
+         .intro { min-height: calc(100vh - 80px); }
+         .intro-title-text { font-size: calc(30.2vmin - 20px); }
+         .image-max-height { max-height: calc(100vh - 80px); }
+         }
+         /* Menu icon styling */
+         .menu-button.w--open .first,
+         .menu-button.w--open .last { width: 0; }
+         .menu-button div { background-color: currentColor; }
+         /* WYSIWYG styles */
+         .w-richtext *:first-child { margin-top: 0; }
+         .w-richtext figure div { display: inline-block; }
+         .w-richtext-align-center { text-align: center; }
+         .w-richtext-align-fullwidth { max-width: 100%!important; }
+         .w-richtext-align-fullwidth div { display: block!important; }
+         .w-richtext-align-floatleft,
+         .w-richtext-align-floatright { max-width: 50%; }
+         .rich-text p,
+         .rich-text li { word-break: break-word; }
+         /* Custom cursors */
+         body { cursor: url("https://assets-global.website-files.com/60b118690f8e028ab7d93790/6102ad7e3ac0cbabbfd3b5d3_Cursor.svg") 2 2, auto; }
+         .slick-track { cursor: url("https://assets-global.website-files.com/60b118690f8e028ab7d93790/6102ad7f6de26a967a138682_Grab.svg") 16 16, auto; }
+         a,
+         .button,
+         .w-dropdown-toggle,
+         .menu-button { cursor: url("https://assets-global.website-files.com/60b118690f8e028ab7d93790/6102ad7e954507b8d406407f_Pointer.svg") 5 12, auto; }
+         .right-arrow { cursor: url("https://assets-global.website-files.com/60b118690f8e028ab7d93790/60d2fe451ef2bbca4cf2f040_arrow-right.svg") 29 20, e-resize; }
+         .left-arrow { cursor: url("https://assets-global.website-files.com/60b118690f8e028ab7d93790/60d2fe44aefc6214f7efff30_arrow-left.svg")  29 20, w-resize; }
+         /* Diagonal text bit on the homepage */
+         .text-wrap {
+         height: 66vh;
+         float: left;
+         shape-outside: polygon(0 0, 0 100%, 28vh 100%);
+         width: 28vh;
+         }
+         /* Blog nav scroll bar */
+         .blog-nav {
+         overflow-x: scroll;
+         }
+         .blog-nav::-webkit-scrollbar {
+         height: 2px;
+         }
+         .blog-nav::-webkit-scrollbar-track {
+         background: transparent;
+         }
+         .blog-nav::-webkit-scrollbar-thumb {
+         background: rgba(255,255,255,0.25);
+         }
+         /* Colour schemes */
+         .naughty-navy .nav-menu + .header-container { background-color: var(--naughty-navy); color: #fff; }
+         .theme.naughty-navy,
+         .naughty-navy .nav-menu + .header-container { background-color: var(--naughty-navy); color: #fff; }
+         .naughty-navy .theme-bg { background-color: var(--trusty-blue); color: #000; }
+         .naughty-navy .accent-text,
+         .naughty-navy .button-secondary { color: var(--gold); }
+         .naughty-navy .accent-bg { background-color: var(--gold); }
+         .naughty-navy .accent-svg svg { fill: var(--gold); }
+         .naughty-navy .theme-bg .accent-text,
+         .naughty-navy .theme-bg .button-secondary { color: var(--naughty-navy); }
+         .naughty-navy .theme-bg .accent-bg { background-color: var(--naughty-navy); }
+         .naughty-navy .theme-bg .accent-svg svg { fill: var(--naughty-navy); }
+         .naughty-navy .tint-text { color: var(--naughty-navy-tint); }
+         .naughty-navy .tint-bg { background-color: var(--naughty-navy-tint); }
+         .naughty-navy .tint-svg svg { fill: var(--naughty-navy-tint); }
+         .naughty-navy .theme-bg .tint-text { color: var(--trusty-blue-tint); }
+         .naughty-navy .theme-bg .tint-bg { background-color: var(--trusty-blue-tint); }
+         .naughty-navy .theme-bg .tint-svg svg { fill: var(--trusty-blue-tint); }
+         .theme.trusty-blue,
+         .trusty-blue .nav-menu + .header-container { background-color: var(--trusty-blue); color: #000; }
+         .trusty-blue .nav-menu + .header-container #logo-text { fill: #fff; }
+         .trusty-blue .nav-menu + .header-container #logo-bg { fill: var(--cleo-blue); }
+         .trusty-blue .theme-bg { background-color: var(--cleo-blue); color: #fff; }
+         .trusty-blue .accent-text,
+         .trusty-blue .button-secondary { color: var(--cleo-blue); }
+         .trusty-blue .accent-bg { background-color: var(--cleo-blue); }
+         .trusty-blue .accent-svg svg { fill: var(--cleo-blue); }
+         .trusty-blue .theme-bg .accent-text,
+         .trusty-blue .theme-bg .button-secondary { color: var(--gold); }
+         .trusty-blue .theme-bg .accent-bg { background-color: var(--gold); }
+         .trusty-blue .theme-bg .accent-svg svg { fill: var(--gold); }
+         .trusty-blue .tint-text { color: var(--trusty-blue-tint); }
+         .trusty-blue .tint-bg { background-color: var(--trusty-blue-tint); }
+         .trusty-blue .tint-svg svg { fill: var(--trusty-blue-tint); }
+         .trusty-blue .theme-bg .tint-text { color: var(--cleo-blue-tint); }
+         .trusty-blue .theme-bg .tint-bg { background-color: var(--cleo-blue-tint); }
+         .trusty-blue .theme-bg .tint-svg svg { fill: var(--cleo-blue-tint); }
+         .theme.bloop,
+         .bloop .nav-menu + .header-container { background-color: var(--bloop); color: #fff; }
+         .bloop .theme-bg { background-color: var(--gold); color: #000; }
+         .bloop .accent-text,
+         .bloop .button-secondary { color: var(--gold); }
+         .bloop .accent-bg { background-color: var(--gold); }
+         .bloop .accent-svg svg { fill: var(--gold); }
+         .bloop .theme-bg .accent-text,
+         .bloop .theme-bg .button-secondary { color: var(--bloop); }
+         .bloop .theme-bg .accent-bg { background-color: var(--bloop); }
+         .bloop .theme-bg .accent-svg svg { fill: var(--bloop); }
+         .bloop .tint-text { color: var(--bloop-tint); }
+         .bloop .tint-bg { background-color: var(--bloop-tint); }
+         .bloop .tint-svg svg { fill: var(--bloop-tint); }
+         .bloop .theme-bg .tint-text { color: var(--gold-tint); }
+         .bloop .theme-bg .tint-bg { background-color: var(--gold-tint); }
+         .bloop .theme-bg .tint-svg svg { fill: var(--gold-tint); }
+         .theme.dollar-green,
+         .dollar-green .nav-menu + .header-container { background-color: var(--dollar-green); color: #000; }
+         .dollar-green .theme-bg { background-color: var(--cleo-blue); color: #fff; }
+         .dollar-green .accent-text,
+         .dollar-green .button-secondary { color: var(--cleo-blue); }
+         .dollar-green .accent-bg { background-color: var(--cleo-blue); }
+         .dollar-green .accent-svg svg { fill: var(--cleo-blue); }
+         .dollar-green .theme-bg .accent-text,
+         .dollar-green .theme-bg .button-secondary { color: var(--dollar-green); }
+         .dollar-green .theme-bg .accent-bg { background-color: var(--dollar-green); }
+         .dollar-green .theme-bg .accent-svg svg { fill: var(--dollar-green); }
+         .dollar-green .tint-text { color: var(--dollar-green-tint); }
+         .dollar-green .tint-bg { background-color: var(--dollar-green-tint); }
+         .dollar-green .tint-svg svg { fill: var(--dollar-green-tint); }
+         .dollar-green .theme-bg .tint-text { color: var(--cleo-blue-tint); }
+         .dollar-green .theme-bg .tint-bg { background-color: var(--cleo-blue-tint); }
+         .dollar-green .theme-bg .tint-svg svg { fill: var(--cleo-blue-tint); }
+         .theme.purp,
+         .purp .nav-menu + .header-container { background-color: var(--purp); color: #fff; }
+         .purp .theme-bg { background-color: var(--dollar-green); color: #000; }
+         .purp .accent-text,
+         .purp .button-secondary { color: var(--dollar-green); }
+         .purp .accent-bg { background-color: var(--dollar-green); }
+         .purp .accent-svg svg { fill: var(--dollar-green); }
+         .purp .theme-bg .accent-text,
+         .purp .theme-bg .button-secondary { color: var(--purp); }
+         .purp .theme-bg .accent-bg { background-color: var(--purp); }
+         .purp .theme-bg .accent-svg svg { fill: var(--purp); }
+         .purp .tint-text { color: var(--purp-tint); }
+         .purp .tint-bg { background-color: var(--purp-tint); }
+         .purp .tint-svg svg { fill: var(--purp-tint); }
+         .purp .theme-bg .tint-text { color: var(--dollar-green-tint); }
+         .purp .theme-bg .tint-bg { background-color: var(--dollar-green-tint); }
+         .purp .theme-bg .tint-svg svg { fill: var(--dollar-green-tint); }
+         .theme.lit-purple,
+         .lit-purple .nav-menu + .header-container { background-color: var(--lit-purple); color: #000; }
+         .lit-purple .theme-bg { background-color: var(--naughty-navy); color: #fff; }
+         .lit-purple .accent-text,
+         .lit-purple .button-secondary { color: var(--naughty-navy); }
+         .lit-purple .accent-bg { background-color: var(--naughty-navy); }
+         .lit-purple .accent-svg svg { fill: var(--naughty-navy); }
+         .lit-purple .theme-bg .accent-text,
+         .lit-purple .theme-bg .button-secondary { color: var(--lit-purple); }
+         .lit-purple .theme-bg .accent-bg { background-color: var(--lit-purple); }
+         .lit-purple .theme-bg .accent-svg svg { fill: var(--lit-purple); }
+         .lit-purple .tint-text { color: var(--lit-purple-tint); }
+         .lit-purple .tint-bg { background-color: var(--lit-purple-tint); }
+         .lit-purple .tint-svg svg { fill: var(--lit-purple-tint); }
+         .lit-purple .theme-bg .tint-text { color: var(--naughty-navy-tint); }
+         .lit-purple .theme-bg .tint-bg { background-color: var(--naughty-navy-tint); }
+         .lit-purple .theme-bg .tint-svg svg { fill: var(--naughty-navy-tint); }
+         .theme.roast-red,
+         .roast-red .nav-menu + .header-container { background-color: var(--roast-red); color: #fff; }
+         .roast-red .theme-bg { background-color: var(--soft-cream); color: #000; }
+         .roast-red .accent-text,
+         .roast-red .button-secondary { color: var(--soft-cream); }
+         .roast-red .accent-bg { background-color: var(--soft-cream); }
+         .roast-red .accent-svg svg { fill: var(--soft-cream); }
+         .roast-red .theme-bg .accent-text,
+         .roast-red .theme-bg .button-secondary { color: var(--roast-red); }
+         .roast-red .theme-bg .accent-bg { background-color: var(--roast-red); }
+         .roast-red .theme-bg .accent-svg svg { fill: var(--roast-red); }
+         .roast-red .tint-text { color: var(--roast-red-tint); }
+         .roast-red .tint-bg { background-color: var(--roast-red-tint); }
+         .roast-red .tint-svg svg { fill: var(--roast-red-tint); }
+         .roast-red .theme-bg .tint-text { color: var(--soft-cream-tint); }
+         .roast-red .theme-bg .tint-bg { background-color: var(--soft-cream-tint); }
+         .roast-red .theme-bg .tint-svg svg { fill: var(--soft-cream-tint); }
+      </style>
+   </head>
+   <body>
+      <div style="opacity:1;display:block" class="overlay"></div>
+      <div class="theme home">
+         <div data-collapse="all" data-animation="default" data-duration="800" data-easing2="ease-out-cubic" data-easing="ease-out-cubic" data-doc-height="1" role="banner" class="header w-nav">
+            <nav role="navigation" class="nav-menu w-nav-menu">
+               <div class="menu-container">
+                  
+                 
+               </div>
+               
+            </nav>
+            <!-- <header  data-w-id="e782e6d2-4b3c-773c-e6bd-ca40eda5597d" class="header-container"> -->
+                  <header  style="background:black!important;" class="header-container">
+               <a aria-label="Cleo homepage" href="/" aria-current="page" class="logo w-nav-brand w--current">
+                  <div class="logo w-embed">
+                     <img src="img/grok_logo.png">
+                  </div>
+               </a>
+              
+              <!--  <div class="nav-secondary">
+                  <div class="button modal-button">                     
+                     <div class="button-text">Register Now</div>
+                  </div>
+                  <div class="nav-mobile-button">
+                     <a href="register" class="button sign-up-link-generic w-inline-block">      
+                        <div class="button-text">Register Now</div>
+                     </a>
+                  </div>
+                  <div data-w-id="e782e6d2-4b3c-773c-e6bd-ca40eda5599a" class="menu-button w-nav-button">
+                     
+                  </div>
+               </div> -->
+            </header>     
+         </div>
+         <main class="page">
+            <div class="home-watermark">
+               <h1 data-w-id="ef703463-143c-b17a-56d3-a3b3bb85e15c" class="meet-cleo">Meet cleo</h1>
+            </div>
+            <div class="home-intro">
+               <div class="tentacle-drink"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60fa99f4712cff78f2856076_Tentacle-cup.png" loading="lazy" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60fa99f4712cff78f2856076_Tentacle-cup-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60fa99f4712cff78f2856076_Tentacle-cup.png 768w" sizes="(max-width: 479px) 40vw, (max-width: 991px) 36vw, 26vw" alt="" class="tentacle-drink-image"/></div>
+               <div class="tentacle-chain">
+
+                  <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60fa99f4de47197dca84f8dc_Tentacle-chain.png" loading="lazy" alt="" class="tentacle-chain-image"/>
+
+
+               </div>
+               <div data-w-id="6cbc076b-6564-ed08-f9cf-3eef3f5bf4da" class="home-intro-heading">
+                  <div class="home-intro-title">
+                     <div class="title-line-left">
+                        <div class="word-mask">
+                           <div data-w-id="6cf2120c-5ff3-bb2d-42c1-26ac160fe764" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">A</div>
+                        </div>
+                        <div class="word-mask">
+                           <div data-w-id="68207e13-a5f1-d228-061e-11d4db49a217" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">money</div>
+                        </div>
+                        <div class="word-mask">
+                           <div data-w-id="9e49f5f8-dc85-cf0c-3a17-fbcf565d4c1f" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">App</div>
+                        </div>
+                     </div>
+                     <div class="title-line-left delayed">
+                        <div class="word-mask">
+                           <div style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">A</div>
+                        </div>
+                        <div class="word-mask">
+                           <div data-w-id="bd7f538e-eba6-cfa1-a6d6-b64385f7a4b8" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">budget</div>
+                        </div>
+                     </div>
+                     <div class="title-line-left delayed">
+                        <div class="word-mask">
+                           <div style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">A</div>
+                        </div>
+                        <div class="word-mask">
+                           <div data-w-id="86336eb5-1569-58da-0b74-4fba17a61005" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">quick</div>
+                        </div>
+                        <div class="word-mask">
+                           <div data-w-id="86336eb5-1569-58da-0b74-4fba17a61008" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">spot</div>
+                        </div>
+                     </div>
+                     <div class="title-line-left delayed">
+                        <div class="word-mask">
+                           <div data-w-id="58e2e649-8252-3836-5d30-eb8ea1d48c80" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">Building</div>
+                        </div>
+                        <div class="word-mask">
+                           <div data-w-id="58e2e649-8252-3836-5d30-eb8ea1d48c83" style="-webkit-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 130%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="home-intro-title-text cycle">credit</div>
+                        </div>
+                     </div>
+                     <div class="title-line-right">
+                        <div class="word-mask">
+                           <div class="home-intro-title-text word-4">that</div>
+                        </div>
+                        <div class="word-mask">
+                           <div class="home-intro-title-text word-5">Doesn’t</div>
+                        </div>
+                     </div>
+                     <div class="title-line-centered">
+                        <div class="word-mask">
+                           <div class="home-intro-title-text word-6">suck.</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div data-w-id="60550721-6252-bc61-ab17-91f212688579" class="chat-section">
+               <div class="chat-section-intro">
+                  <p class="intro-summary-text"> Central Pain Point Here </p>
+                  <div class="button-group">
+                     <a href="#" target="_blank" class="button sign-up-link-generic w-inline-block">
+                        <div class="button-text">Register Now</div>
+                     </a>
+                  </div>
+               </div>
+               <div class="chat">
+                  <div class="chat-bubbles">
+                     <div data-w-id="3e40c42d-29b8-89ea-5487-af324ff847c4" class="cleo-chat-bubble first">
+                        <p class="chat-text">I’m Cleo 👋</p>
+                     </div>
+                     <div class="cleo-chat-bubble second">
+                        <p class="chat-text">Here to make money easier<br/></p>
+                     </div>
+                     <div class="cleo-chat-bubble last">
+                        <p class="chat-text">Now let&#x27;s sort your sh*t out</p>
+                     </div>
+                  </div>
+                  <div class="chat-mode roast-mode">
+                     <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ddd07b9dde6a610f2ab970_Roast%20hand.png" loading="lazy" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ddd07b9dde6a610f2ab970_Roast%20hand-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ddd07b9dde6a610f2ab970_Roast%20hand.png 640w" width="320" sizes="(max-width: 479px) 50vw, (max-width: 991px) 240px, 16vw" alt="" class="chat-mode-icon"/>
+                     <h1 class="chat-mode-heading">Roast<br/>mode</h1>
+                  </div>
+                  <div class="chat-bubbles">
+                     <div class="user-chat-bubble first red">
+                        <p class="chat-text">Roast me, Cleo</p>
+                     </div>
+                  </div>
+                  <div class="chat-bubbles">
+                     <div class="cleo-chat-bubble first">
+                        <p class="chat-text">12 trips to McDonalds this month</p>
+                     </div>
+                     <div class="cleo-chat-bubble second">
+                        <p class="chat-text">Any more and I’ll start listing it as a bill<br/></p>
+                     </div>
+                     <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60dee6a50fd0004a1f8357e0_smh.gif" loading="lazy" alt="Animated gif of someone shaking their head" class="gif-chat-bubble"/>
+                  </div>
+                  <div class="chat-mode hype-mode">
+                     <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ddd003682491d876173091_Hype%20hand.png" loading="lazy" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ddd003682491d876173091_Hype%20hand-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ddd003682491d876173091_Hype%20hand.png 640w" width="320" sizes="(max-width: 479px) 50vw, (max-width: 991px) 240px, 16vw" alt="" class="chat-mode-icon"/>
+                     <h1 class="chat-mode-heading">Hype<br/>mode</h1>
+                  </div>
+                  <div class="chat-bubbles">
+                     <div class="user-chat-bubble first">
+                        <p class="chat-text">Hype me!</p>
+                     </div>
+                  </div>
+                  <div class="chat-bubbles">
+                     <div class="cleo-chat-bubble first">
+                        <p class="chat-text">Look at you spending less on travel this week</p>
+                     </div>
+                     <div class="cleo-chat-bubble second">
+                        <p class="chat-text">You little introverted legend<br/></p>
+                     </div>
+                     <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610a6a05043a2edb76a6af62_applause.gif" loading="lazy" alt="Animated gif of someone applauding" class="gif-chat-bubble"/>
+                  </div>
+               </div>
+               <div class="phone-frame-background">
+                  <div class="mode-background-video roast"></div>
+                  <div class="mode-background-video hype"></div>
+                  <div class="cleo-chat-bg-text">Grok<br/>Grok<br/>Grok<br/>Grok<br/>Grok<br/>Grok<br/></div>
+               </div>
+               <img src="img/mobile.png" loading="lazy" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e178bcd46cecdc4e76ce0_Phone-frame-p-500.png 500w, img/mobile.png 712w" sizes="(max-width: 991px) 100vw, 470px" alt="" class="phone-frame"/>
+            </div>
+         </main>
+         <div data-w-id="2ca810c0-1c72-4dca-d8ed-0de3388672b8" class="track">
+            <div class="camera">
+               <div class="frame">
+                  <div class="track-item first">
+                     <div class="feature-intro">
+                        <figure class="feature-intro-image"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e17b1e884561f7550664d_Credit-builder-card.png" sizes="(max-width: 767px) 100vw, (max-width: 991px) 750px, 56vw" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e17b1e884561f7550664d_Credit-builder-card-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e17b1e884561f7550664d_Credit-builder-card-p-800.png 800w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e17b1e884561f7550664d_Credit-builder-card-p-1080.png 1080w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e17b1e884561f7550664d_Credit-builder-card.png 1470w" alt="The credit builder card with your credit score in app." class="track-intro-image"/></figure>
+                        <div class="feature-intro-summary">
+                           <div class="text-wrap"></div>
+                           <p class="features-intro-text">Central Pain Point Here</p>
+                           <div class="feature-intro-button">
+                              <a href="#" class="button sign-up-link-generic w-inline-block">
+                                 <div class="button-text">Get started</div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="track-item">
+                     <article class="feature-card theme lit-purple">
+                        <div class="image-and-text">
+                           <div class="image-and-text-column">
+                              <div class="feature-card-content">
+                                 <div class="track-illustration" data-w-id="0310306e-2369-c3e5-421c-0f995f622ddc" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53a2fdf56224c909d657_lf30_m51rs3cy.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                                 <h2 class="heading-3 accent-text">Get Up to a $100 spot</h2>
+                                 <p class="paragraph">There&#x27;s a lot of shady apps that lend you money out there. Cleo&#x27;s not one of them.<br/><br/>Get up to a $100 spot with no interest or credit checks. (Eligibility requirements apply)</p>
+                                 <div class="button-group"><a href="#" class="button w-inline-block"></a></div>
+                              </div>
+                           </div>
+                           <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e315560e4693cf8c1cca2a_Borrow-ui.svg" width="1440" height="" alt="Borrowing options." class="feature-card-image"/>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="track-item">
+                     <article class="feature-card theme roast-red">
+                        <div class="image-and-text">
+                           <div class="image-and-text-column">
+                              <div class="feature-card-content">
+                                 <div class="track-illustration" data-w-id="21614317-3c58-a53b-47e8-37227cab918f" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cc7d54fea2f1295ee26e94_burger.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                                 <h2 class="heading-3 accent-text"> Build Credit. Live Life.</h2>
+                                 <p class="paragraph">Credit checks? We don’t have those. But we do have a card to unf*ck your credit.*<br/></p>
+                                 <p class="paragraph-smallprint">*Cleo Credit Builder Card issued by WebBank, Member FDIC.</p>
+                                 <div class="button-group">
+                                    <a href="/build-credit" class="button w-inline-block">
+                                       <div class="button-text">Learn more</div>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c77f16e39cde555f4d4726_Credit-builder-card.png" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c77f16e39cde555f4d4726_Credit-builder-card-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c77f16e39cde555f4d4726_Credit-builder-card-p-800.png 800w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c77f16e39cde555f4d4726_Credit-builder-card-p-1080.png 1080w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c77f16e39cde555f4d4726_Credit-builder-card.png 1280w" sizes="(max-width: 767px) 82vw, (max-width: 991px) 41vw, 43vw" alt="" class="feature-card-image"/>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="track-item">
+                     <article class="feature-card theme dollar-green">
+                        <div class="image-and-text">
+                           <div class="image-and-text-column">
+                              <div class="feature-card-content">
+                                 <div class="track-illustration" data-w-id="bf96d063-b836-de79-e295-12aca042f9f9" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53f6d00d0a5e56cc6c55_lf30_21bvwkil.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                                 <h2 class="heading-3 accent-text">Save like it’s your side hustle</h2>
+                                 <p class="paragraph"> Cleo’s got the tools (and gifs) to help everyone save money fast. Even you.</p>
+                                 <div class="button-group">
+                                    <a href="/save" class="button w-inline-block">
+                                       <div class="button-text">Learn more</div>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e316116a3f634abb1ce7cd_Save-ui.png" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e316116a3f634abb1ce7cd_Save-ui-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e316116a3f634abb1ce7cd_Save-ui.png 1042w" sizes="(max-width: 767px) 82vw, (max-width: 991px) 41vw, 43vw" alt="Saving features." class="feature-card-image"/>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="track-item">
+                     <article class="feature-card theme purp">
+                        <div class="image-and-text">
+                           <div class="image-and-text-column">
+                              <div class="feature-card-content">
+                                 <div class="track-illustration" data-w-id="55976202-4702-01b1-a22f-f0770dff842d" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53f29a7091d382834a9d_lf30_luvskwhu.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                                 <h2 class="heading-3 accent-text">Budgets that actually work</h2>
+                                 <p class="paragraph">From one of the best budget apps of 2022</p>
+                                 <div class="button-group">
+                                    <a href="/budget" class="button w-inline-block">
+                                       <div class="button-text">Learn more</div>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e316117ada5b0c77e7acc7_Budget-ui.png" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e316117ada5b0c77e7acc7_Budget-ui-p-500.png 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/60e316117ada5b0c77e7acc7_Budget-ui.png 957w" sizes="(max-width: 767px) 82vw, (max-width: 991px) 41vw, 43vw" alt="Budgeting features." class="feature-card-image"/>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="track-item last">
+                     <article class="track-end">
+                        <div class="track-end-animation one" data-w-id="e64593af-c84b-c141-00bd-485d0585ecf9" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53a2fdf56224c909d657_lf30_m51rs3cy.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                        <div class="track-end-animation two" data-w-id="b5752963-0dfd-f030-3432-c2760b49da08" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53a2fdf56224c909d657_lf30_m51rs3cy.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                        <div class="track-end-animation three" data-w-id="c0dff342-f332-f361-bf65-d9b4ebf624a9" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53a2fdf56224c909d657_lf30_m51rs3cy.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                        <div class="track-end-animation four" data-w-id="b07ca078-a5c7-8443-bdd9-030bfe531499" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53a2fdf56224c909d657_lf30_m51rs3cy.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                        <div class="track-end-animation five" data-w-id="a03dce15-0c79-ce12-501c-2ad09aaa39c5" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53a2fdf56224c909d657_lf30_m51rs3cy.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                     </article>
+                  </div>
+               </div>
+               <div class="features-watermark">
+                  <h2 class="bg-text">Features Features Features</h2>
+               </div>
+            </div>
+         </div>
+
+
+
+         <div data-w-id="34e7795f-42aa-1785-9263-56ad5c050628" class="theme trusty-blue">
+
+
+
+          <!--   <div class="section-header">
+               <div class="centered-text small-container">
+                 
+                  <h2 class="heading-3">Testimonials from Age Group</h2>
+               </div>
+            </div> -->
+          <!--   <div class="testimonials">
+              
+               <div class="testimonial-list">
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">I love it I’m not one to read reviews but Cleo makes saving and budgeting fun!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">App store review by </div>
+                           <div class="citation-text bold">evie://</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">I looooove this app it has helped me so much with saving money</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">App store review by </div>
+                           <div class="citation-text bold">ZPeacock</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">Great app. The roast part is great, the whole app is great and super helpful to keep track of your finances</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">App store review by </div>
+                           <div class="citation-text bold">ridham1698</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">Love. This is such a great app to help you start saving money!!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">App store review by </div>
+                           <div class="citation-text bold">jedapayne</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">Love it!! Actual budgeting help, and it’s fun!!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">App store review by </div>
+                           <div class="citation-text bold">zeplan</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">Best money managing app. Definitely worthwhile and helps me stay on budget</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">App store review by </div>
+                           <div class="citation-text bold">Sjenks18</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div style="background: white;color: black!important;" class="theme-bg">
+               <article class="section">
+                  <div class="guide">
+                     <header class="guide-header">
+                        <h2 class="heading-2 accent-text">That's why we <br/>built Grok</h2>
+                        <p class="summary">Byline here byline here. Byline here byline here Byline here byline here Byline here byline here Byline here byline here →</p>
+                       <!--  <div class="button-group">
+                           <a href="https://www.facebook.com/MeetCleo" target="_blank" class="w-inline-block">
+                              <div class="social-logo accent-svg w-embed">
+                                 <svg height="100%" viewBox="0 0 64 64" width="100%" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m42.0363 34.4529 1.1893-7.4332h-7.1359v-5.2032c0-2.0813.7434-3.7167 4.014-3.7167h3.4193v-6.8385c-1.9327-.2973-4.014-.5947-5.9466-.5947-6.0953 0-10.4065 3.7166-10.4065 10.4065v5.9466h-6.6899v7.4332h6.6899v18.8804h8.9198v-18.8804z"/>
+                                 </svg>
+                              </div>
+                              <div class="visually-hidden">Facebook</div>
+                           </a>
+                           <a href="https://www.instagram.com/meetcleo/" target="_blank" class="w-inline-block">
+                              <div class="social-logo accent-svg w-embed">
+                                 <svg fill="#000" height="100%" viewBox="0 0 64 64" width="100%" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="m32 22.4145c-5.2941 0-9.5857 4.2916-9.5857 9.5856s4.2916 9.5856 9.5857 9.5856c5.2939 0 9.5855-4.2916 9.5855-9.5856s-4.2916-9.5856-9.5855-9.5856zm0 15.8078c-3.4365 0-6.2223-2.7858-6.2223-6.2222 0-3.4365 2.7858-6.2222 6.2223-6.2222 3.4364 0 6.2222 2.7857 6.2222 6.2222 0 3.4364-2.7858 6.2222-6.2222 6.2222z" fill-rule="evenodd"/>
+                                    <path d="m41.9642 24.2757c1.2371 0 2.24-1.0029 2.24-2.24s-1.0029-2.24-2.24-2.24c-1.237 0-2.24 1.0029-2.24 2.24s1.003 2.24 2.24 2.24z"/>
+                                    <path clip-rule="evenodd" d="m32 13.3334c-5.0696 0-5.7053.0215-7.6963.1123-1.9869.0906-3.3438.4062-4.5312.8677-1.2275.477-2.2685 1.1152-3.3063 2.153-1.0377 1.0378-1.676 2.0788-2.1529 3.3063-.4615 1.1873-.7771 2.5443-.8677 4.5311-.0909 1.991-.1123 2.6267-.1123 7.6963 0 5.0695.0214 5.7052.1123 7.6962.0906 1.9868.4062 3.3438.8677 4.5311.4769 1.2275 1.1152 2.2685 2.1529 3.3063 1.0378 1.0378 2.0788 1.676 3.3063 2.1531 1.1874.4614 2.5443.777 4.5312.8676 1.991.0908 2.6267.1123 7.6963.1123 5.0695 0 5.7052-.0215 7.6962-.1123 1.9868-.0906 3.3438-.4062 4.5311-.8676 1.2275-.4771 2.2685-1.1153 3.3063-2.1531 1.0377-1.0378 1.676-2.0788 2.1531-3.3063.4614-1.1873.7769-2.5443.8676-4.5311.0908-1.991.1123-2.6267.1123-7.6962 0-5.0696-.0215-5.7053-.1123-7.6963-.0907-1.9868-.4062-3.3438-.8676-4.5311-.4771-1.2275-1.1154-2.2685-2.1531-3.3063-1.0378-1.0378-2.0788-1.676-3.3063-2.153-1.1873-.4615-2.5443-.7771-4.5311-.8677-1.991-.0908-2.6267-.1123-7.6962-.1123zm0 3.3633c4.9841 0 5.5745.0191 7.5429.1089 1.8199.083 2.8083.3871 3.4661.6427.8713.3386 1.4931.7431 2.1463 1.3964.6532.6531 1.0577 1.275 1.3964 2.1463.2556.6577.5597 1.6461.6427 3.4661.0898 1.9683.1088 2.5587.1088 7.543 0 4.9841-.019 5.5746-.1088 7.5429-.083 1.82-.3871 2.8083-.6427 3.4661-.3387.8713-.7432 1.4931-1.3964 2.1463-.6532.6533-1.275 1.0578-2.1463 1.3964-.6578.2556-1.6462.5597-3.4661.6427-1.9681.0898-2.5584.1089-7.5429.1089-4.9847 0-5.5749-.0191-7.543-.1089-1.82-.083-2.8084-.3871-3.4661-.6427-.8714-.3386-1.4932-.7431-2.1464-1.3964-.6531-.6532-1.0577-1.275-1.3963-2.1463-.2557-.6578-.5598-1.6461-.6427-3.4661-.0898-1.9683-.1089-2.5588-.1089-7.5429 0-4.9843.0191-5.5747.1089-7.543.0829-1.82.387-2.8084.6427-3.4661.3386-.8713.7431-1.4932 1.3963-2.1463.6532-.6533 1.275-1.0578 2.1464-1.3964.6577-.2556 1.6461-.5597 3.4661-.6427 1.9683-.0898 2.5587-.1089 7.543-.1089z" fill-rule="evenodd"/>
+                                 </svg>
+                              </div>
+                              <div class="visually-hidden"> Instagram</div>
+                           </a>
+                           <a href="https://twitter.com/meetcleo" target="_blank" class="w-inline-block">
+                              <div class="social-logo accent-svg w-embed">
+                                 <svg fill="#000" height="100%" viewBox="0 0 64 64" width="100%" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="m24.0852 51.7334c-4.9433 0-9.5446-1.6048-13.4185-4.3553.6849.0895 1.3817.1354 2.0882.1354 4.1011 0 7.8755-1.5499 10.8713-4.1498-3.8304-.0783-7.0632-2.881-8.177-6.7324.5344.1132 1.0828.1739 1.6468.1739.7984 0 1.5717-.1184 2.3063-.34-4.0046-.8905-7.0218-4.8086-7.0218-9.5056 0-.0408 0-.0814.0006-.1218 1.1803.7261 2.53 1.1621 3.965 1.2124-2.3488-1.7383-3.8943-4.7056-3.8943-8.0688 0-1.7765.4317-3.4418 1.1852-4.8735 4.3174 5.8649 10.7674 9.7243 18.0425 10.1286-.1492-.7095-.2267-1.4494-.2267-2.2092 0-5.3535 3.9194-9.6939 8.7538-9.6939 2.5177 0 4.7926 1.1773 6.3895 3.0614 1.9939-.4349 3.8673-1.2417 5.5586-2.3525-.6537 2.2637-2.0415 4.1634-3.8489 5.3633 1.7707-.2344 3.4578-.7555 5.0276-1.5265-1.1736 1.944-2.6578 3.6515-4.3679 5.0182.0168.4157.0252.8338.0252 1.2541 0 12.8103-8.8045 27.582-24.9055 27.582z" fill-rule="evenodd"/>
+                                 </svg>
+                              </div>
+                              <div class="visually-hidden">Twitter</div>
+                           </a>
+                           <a href="https://www.tiktok.com/@meetcleo" target="_blank" class="w-inline-block">
+                              <div class="social-logo accent-svg w-embed">
+                                 <svg fill="#000" height="100%" viewBox="0 0 64 64" width="100%" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m46.2222 13.3334h-28.4445c-2.4507 0-4.4444 1.9938-4.4444 4.4444v28.4445c0 2.4506 1.9937 4.4444 4.4444 4.4444h28.4445c2.4507 0 4.4445-1.9938 4.4445-4.4444v-28.4445c0-2.4506-1.9938-4.4444-4.4445-4.4444zm-3.5502 16.2871c-.2039.0198-.4085.0302-.6133.0311-1.1059.0002-2.1944-.2751-3.1672-.8009-.9729-.5257-1.7995-1.2855-2.4053-2.2107v10.2552c0 1.499-.4445 2.9645-1.2774 4.2109-.8328 1.2465-2.0166 2.218-3.4016 2.7917-1.385.5736-2.909.7237-4.3793.4313-1.4703-.2925-2.8208-1.0144-3.8808-2.0744-1.0601-1.06-1.7819-2.4106-2.0744-3.8808-.2925-1.4703-.1424-2.9943.4313-4.3793s1.5452-2.5688 2.7916-3.4016c1.2465-.8329 2.7119-1.2774 4.211-1.2774.1583 0 .3129.0142.4685.024v3.7351c-.1556-.0187-.3085-.0471-.4685-.0471-1.0259 0-2.0099.4076-2.7354 1.133-.7255.7255-1.133 1.7095-1.133 2.7354 0 1.026.4075 2.01 1.133 2.7354.7255.7255 1.7095 1.1331 2.7354 1.1331 2.1369 0 4.024-1.6836 4.024-3.8205l.0374-17.4168h3.5733c.1633 1.5526.8671 2.9984 1.9884 4.0846 1.1214 1.0862 2.5888 1.7438 4.1459 1.8576v4.1511"/>
+                                 </svg>
+                              </div>
+                              <div class="visually-hidden">TikTok</div>
+                           </a>
+                        </div> -->
+                     </header>
+                     <div class="guide-content">
+                        <div class="instagram-grid">
+                           <div class="instagram-post"><a href="https://www.instagram.com/p/CR_100SjF9a/" target="_blank" class="instagram-link w-inline-block"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba22f6a0dc59d504cb953_meetcleo_227351138_937653286782424_4448505311519679604_n.jpg" loading="lazy" alt="the weight of the world on your shoulders and 109 caffeine palps in your heart" class="instagram-post-image"/></a></div>
+                           <div class="instagram-post"><a href="https://www.instagram.com/p/CR7JQp3LiO1/" target="_blank" class="instagram-link w-inline-block"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20eb00a60f96bb78a56_225717957_373651797514430_2339573385411501514_n.jpg" loading="lazy" alt="You know the drill. If you wanna learn more about that quick spot, go to our link in bio and download Cleo (after your Taco Bell)" class="instagram-post-image"/></a></div>
+                           <div class="instagram-post"><a href="https://www.instagram.com/p/CR4UbGkH_VW/" target="_blank" class="instagram-link w-inline-block"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20eab9e3b65031e9780_meetcleo_227058981_1006150813487294_8309149382390545586_n.jpg" loading="lazy" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20eab9e3b65031e9780_meetcleo_227058981_1006150813487294_8309149382390545586_n-p-500.jpeg 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20eab9e3b65031e9780_meetcleo_227058981_1006150813487294_8309149382390545586_n-p-800.jpeg 800w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20eab9e3b65031e9780_meetcleo_227058981_1006150813487294_8309149382390545586_n.jpg 1080w" sizes="(max-width: 479px) 39vw, (max-width: 767px) 41vw, (max-width: 991px) 20vw, 22vw" alt="STOP SCROLLING. We need you to know two things:⁠ 1) this card isn&#x27;t tiny the hamster is just huge.⁠ 2) no actually that is all⁠." class="instagram-post-image"/></a></div>
+                           <div class="instagram-post"><a href="https://www.instagram.com/p/CR13s25L3e8/" target="_blank" class="instagram-link w-inline-block"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20de593ca81ec0b38bb_226660165_182630120586799_2561496203160374111_n.jpg" loading="lazy" srcset="https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20de593ca81ec0b38bb_226660165_182630120586799_2561496203160374111_n-p-500.jpeg 500w, https://assets-global.website-files.com/60b118690f8e028ab7d93790/610ba20de593ca81ec0b38bb_226660165_182630120586799_2561496203160374111_n.jpg 640w" sizes="(max-width: 479px) 39vw, (max-width: 767px) 41vw, (max-width: 991px) 20vw, 22vw" alt="When you pay rent on time" class="instagram-post-image"/></a></div>
+                        </div>
+                     </div>
+                  </div>
+               </article>
+            </div>
+            <div class="section-header">
+               <div class="centered-text small-container">
+                  <h2 class="heading-3">Games + Real-Life Situations = The Perfect way to learn Finance</h2>
+                  <!-- <p class="summary">We take security seriously and use the same encryption as your bank.<br/>We also don&#x27;t sell your data because that’s creepy.</p> -->
+               </div>
+            </div>
+            <div class="columns">
+               <div class="column">
+                  <div class="feature-icon">
+                     <div class="feature-stamp tint-svg w-embed">
+                        <svg fill="#c2d2fd" height="100%" viewBox="0 0 184 184" width="100%" xmlns="http://www.w3.org/2000/svg">
+                           <path d="m184 92c0 7.6206-14.026 13.364-15.904 20.377-1.933 7.289 7.289 19.217 3.589 25.623-3.755 6.461-18.72 4.418-24.021 9.664-5.246 5.246-3.203 20.266-9.664 24.021-6.406 3.7-18.334-5.577-25.623-3.589-7.069 1.878-12.7564 15.904-20.377 15.904s-13.3637-14.026-20.3769-15.904c-7.2893-1.933-19.2173 7.289-25.6231 3.589-6.461-3.755-4.4178-18.72-9.6639-24.021-5.2461-5.246-20.2665-3.203-24.0216-9.664-3.69983-6.406 5.5775-18.334 3.5895-25.623-1.8776-7.069-15.904-12.7564-15.904-20.377 0-7.6207 14.0264-13.3637 15.904-20.3769 1.9328-7.2893-7.28933-19.2173-3.5895-25.6231 3.7551-6.461 18.7203-4.4177 24.0216-9.6638 5.2461-5.2461 3.2029-20.2665 9.6639-24.0217 6.4058-3.69983 18.3338 5.5775 25.6231 3.5895 7.0684-1.8776 12.7563-15.904 20.3769-15.904s13.364 14.0264 20.377 15.904c7.289 1.9328 19.217-7.28933 25.623-3.5895 6.461 3.7552 4.418 18.7203 9.664 24.0217 5.246 5.2461 20.266 3.2028 24.021 9.6638 3.7 6.4058-5.577 18.3338-3.589 25.6231 1.878 7.0684 15.904 12.7562 15.904 20.3769z"/>
+                        </svg>
+                     </div>
+                     <img loading="lazy" src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60ffc79e25ee75acbcfc1356_Security.svg" alt="" class="feature-icon-image"/>
+                  </div>
+                  <div class="centered-text">
+                     <h3 class="heading-4">Value Prop 1</h3>
+                     <p class="paragraph">Byline here byline here. Byline here byline here</p>
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="feature-icon">
+                     <div class="feature-stamp tint-svg w-embed">
+                        <svg fill="#c2d2fd" height="100%" viewBox="0 0 184 184" width="100%" xmlns="http://www.w3.org/2000/svg">
+                           <path d="m184 92c0 7.6206-14.026 13.364-15.904 20.377-1.933 7.289 7.289 19.217 3.589 25.623-3.755 6.461-18.72 4.418-24.021 9.664-5.246 5.246-3.203 20.266-9.664 24.021-6.406 3.7-18.334-5.577-25.623-3.589-7.069 1.878-12.7564 15.904-20.377 15.904s-13.3637-14.026-20.3769-15.904c-7.2893-1.933-19.2173 7.289-25.6231 3.589-6.461-3.755-4.4178-18.72-9.6639-24.021-5.2461-5.246-20.2665-3.203-24.0216-9.664-3.69983-6.406 5.5775-18.334 3.5895-25.623-1.8776-7.069-15.904-12.7564-15.904-20.377 0-7.6207 14.0264-13.3637 15.904-20.3769 1.9328-7.2893-7.28933-19.2173-3.5895-25.6231 3.7551-6.461 18.7203-4.4177 24.0216-9.6638 5.2461-5.2461 3.2029-20.2665 9.6639-24.0217 6.4058-3.69983 18.3338 5.5775 25.6231 3.5895 7.0684-1.8776 12.7563-15.904 20.3769-15.904s13.364 14.0264 20.377 15.904c7.289 1.9328 19.217-7.28933 25.623-3.5895 6.461 3.7552 4.418 18.7203 9.664 24.0217 5.246 5.2461 20.266 3.2028 24.021 9.6638 3.7 6.4058-5.577 18.3338-3.589 25.6231 1.878 7.0684 15.904 12.7562 15.904 20.3769z"/>
+                        </svg>
+                     </div>
+                     <div class="feature-icon-image" data-w-id="f046c58b-71c6-54d2-8e05-dd6a48c48cc3" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53f29a7091d382834a9d_lf30_luvskwhu.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                  </div>
+                  <div class="centered-text">
+                     <h3 class="heading-4">Value Prop 2</h3>
+                     <p class="paragraph">Byline here byline here. Byline here byline here</p>
+                  </div>
+               </div>
+               <div class="column">
+                  <div class="feature-icon">
+                     <div class="feature-stamp tint-svg w-embed">
+                        <svg fill="#c2d2fd" height="100%" viewBox="0 0 184 184" width="100%" xmlns="http://www.w3.org/2000/svg">
+                           <path d="m184 92c0 7.6206-14.026 13.364-15.904 20.377-1.933 7.289 7.289 19.217 3.589 25.623-3.755 6.461-18.72 4.418-24.021 9.664-5.246 5.246-3.203 20.266-9.664 24.021-6.406 3.7-18.334-5.577-25.623-3.589-7.069 1.878-12.7564 15.904-20.377 15.904s-13.3637-14.026-20.3769-15.904c-7.2893-1.933-19.2173 7.289-25.6231 3.589-6.461-3.755-4.4178-18.72-9.6639-24.021-5.2461-5.246-20.2665-3.203-24.0216-9.664-3.69983-6.406 5.5775-18.334 3.5895-25.623-1.8776-7.069-15.904-12.7564-15.904-20.377 0-7.6207 14.0264-13.3637 15.904-20.3769 1.9328-7.2893-7.28933-19.2173-3.5895-25.6231 3.7551-6.461 18.7203-4.4177 24.0216-9.6638 5.2461-5.2461 3.2029-20.2665 9.6639-24.0217 6.4058-3.69983 18.3338 5.5775 25.6231 3.5895 7.0684-1.8776 12.7563-15.904 20.3769-15.904s13.364 14.0264 20.377 15.904c7.289 1.9328 19.217-7.28933 25.623-3.5895 6.461 3.7552 4.418 18.7203 9.664 24.0217 5.246 5.2461 20.266 3.2028 24.021 9.6638 3.7 6.4058-5.577 18.3338-3.589 25.6231 1.878 7.0684 15.904 12.7562 15.904 20.3769z"/>
+                        </svg>
+                     </div>
+                     <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60d5e6358e5a2d7097f249c0_Cash%20bouquet.svg" loading="lazy" alt="" class="feature-icon-image"/>
+                  </div>
+                  <div class="centered-text">
+                     <h3 class="heading-4">Value Prop 3</h3>
+                     <p class="paragraph">Value Prop 3</p>
+                  </div>
+               </div>
+            </div>
+             <div style="background: white;height: 450px;" class="section-header">
+                  <center><h5 style="font-weight: 18px!important;" class="heading-3">Simulation approved by real world expets</h5> 
+                     <p>Image will be print here</p>
+                  </center>      
+             </div>
+
+            <section>
+               <div class="section-header">
+               <div class="centered-text small-container">
+                  <!-- <img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60f82ecf8dca8231ee1f52c3_Good%20vibes.svg" loading="lazy" alt="" class="section-header-illustration"/> -->
+                  <h2 class="heading-3">Testimonials from Age Group</h2>
+               </div>
+            </div>
+            <div class="testimonials">              
+               <div class="testimonial-list">
+                  <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">I love it I’m not one to read reviews but Cleo makes saving and budgeting fun!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">Person Name</div>
+                           <div class="citation-text bold">#Name</div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">I love it I’m not one to read reviews but Cleo makes saving and budgeting fun!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">Person Name</div>
+                           <div class="citation-text bold">#Name</div>
+                        </div>
+                     </div>
+                  </div>
+                       <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">I love it I’m not one to read reviews but Cleo makes saving and budgeting fun!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">Person Name</div>
+                           <div class="citation-text bold">#Name</div>
+                        </div>
+                     </div>
+                  </div>
+
+                       <div class="testimonial-item">
+                     <div class="testimonial">
+                        <div class="testimonial-bubble">
+                           <div class="open-quote accent-text">“</div>
+                           <blockquote class="testimonial-text">I love it I’m not one to read reviews but Cleo makes saving and budgeting fun!</blockquote>
+                           <div class="star-rating"><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/><img src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60c9f05bebcd0d8f66c9d176_Star.svg" loading="lazy" alt="Star" class="star small"/></div>
+                           <div class="close-quote accent-text">”</div>
+                        </div>
+                        <div class="quote-citation">
+                           <div class="citation-text">Person Name</div>
+                           <div class="citation-text bold">#Name</div>
+                        </div>
+                     </div>
+                  </div>
+                 
+                
+               
+               </div>
+            </div>
+          </section>
+            <section class="download theme-bg">
+               <div class="download-section">
+                  <div class="download-column-left">
+                     <div class="download-header">
+                        <h1 class="heading-2"><span class="text-span">Registration Form<br/></span><span class="text-span-12"></span></h1>
+                     </div>
+
+                  </div>
+                  <figure class="download-column-right">
+
+
+                     <img loading="lazy" src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/612e178cf8269427ae74c301_Download.png" alt="Talking to Cleo and seeing a breakdown of your money." class="image-max-height"/>
+
+
+                  </figure>
+               </div>
+            </section>
+         </div>
+      </div>
+
+      <footer style="width: 100%;height: 400px;background: black;">
+         <br><br>
+         <center><h4 style="color: white;">Footer</h4></center>
+      </footer>
+      <!-- <footer class="footer">
+         <div class="footer-columns">
+            <div class="footer-logo">
+               <a aria-label="Cleo homepage" href="/" aria-current="page" class="logo w-inline-block w--current">
+                  <div class="logo w-embed">
+                     <img src="img/logo_black2.png">
+                  </div>
+               </a>
+            </div>
+            <div class="footer-column">
+               <div class="secondary-menu">
+                  <div class="label">Blog</div>
+                  <a href="https://web.meetcleo.com/categories/why-cleo" target="_blank" class="footer-nav-link">Why Cleo</a><a href="https://web.meetcleo.com/categories/culture" target="_blank" class="footer-nav-link">Culture</a><a href="https://web.meetcleo.com/categories/side-hustles" target="_blank" class="footer-nav-link">Side Hustles</a><a href="https://web.meetcleo.com/categories/build-your-credit" target="_blank" class="footer-nav-link">Build Your Credit</a><a href="https://web.meetcleo.com/categories/life-at-cleo" target="_blank" class="footer-nav-link">Life at Cleo</a><a href="https://web.meetcleo.com/categories/money-hacks" target="_blank" class="footer-nav-link">Money Hacks</a>
+                  <div class="w-dyn-list">
+                     <div class="nav-empty-state w-dyn-empty"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-column">
+               <div class="secondary-menu">
+                  <div class="label">Work at Cleo</div>
+                  <a href="/careers" class="footer-nav-link">Careers</a><a href="/life-at-cleo" class="footer-nav-link">Life at Cleo</a><a href="/career-progression-and-salary-bands" class="footer-nav-link">Progression &amp; Salaries</a>
+                  <div class="w-dyn-list">
+                     <div class="nav-empty-state w-dyn-empty"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-column">
+               <div class="secondary-menu">
+                  <div class="label">Information</div>
+                  <a href="https://faqs.meetcleo.com/" target="_blank" class="footer-nav-link">FAQs</a><a href="https://web.meetcleo.com/page/cleo-credit-builder-cardholder-agreement-2021" target="_blank" class="footer-nav-link">Cardholder Agreement</a><a href="/student-discount" class="footer-nav-link">Student Discount</a><a href="https://web.meetcleo.com/page/privacy-notice" target="_blank" class="footer-nav-link">Privacy Notice</a>
+                  <div class="w-dyn-list">
+                     <div role="list" class="w-dyn-items">
+                        <div role="listitem" class="w-dyn-item"><a href="/page/privacy-policy" class="footer-nav-link">Privacy Policy</a></div>
+                        <div role="listitem" class="w-dyn-item"><a href="/page/term-conditions" class="footer-nav-link">Terms &amp; Conditions</a></div>
+                     </div>
+                  </div>
+                  <a href="https://web.meetcleo.com/page/financial-conduct-complaint-policy" target="_blank" class="footer-nav-link">Financial Conduct Authority Complaint Policy</a>
+               </div>
+            </div>
+            <div class="footer-column">
+               <div class="secondary-menu">
+                  <div class="label">Socials</div>
+                  <a href="https://www.facebook.com/MeetCleo" target="_blank" class="footer-nav-link">Facebook</a><a href="https://www.instagram.com/meetcleo/" target="_blank" class="footer-nav-link">Instagram</a><a href="https://twitter.com/meetcleo" target="_blank" class="footer-nav-link">Twitter</a><a href="https://www.tiktok.com/@meetcleo" target="_blank" class="footer-nav-link">TikTok</a><a href="https://www.linkedin.com/company/cleo-ai/" target="_blank" class="footer-nav-link">LinkedIn</a>
+               </div>
+            </div>
+            <div class="footer-column">
+               <div class="secondary-menu">
+                  <div class="label">Address</div>
+                  <p>Cleo AI INC,<br/>150 West 25th Street, RM 403<br/>New York City, NY<br/>10001<br/>‍<br/>Contact: team@meetcleo.com</p>
+               </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="section-newsletter">
+               <div class="columns-3 w-row">
+                  <div class="w-col w-col-6">
+                     <div class="centered-container w-container">
+                        <h2 class="heading-15">NEWSLETTER? OR NO?</h2>
+                        <p class="paragraph-5">Sign up to the Cleo newsletter and get the latest blogs delivered directly to you.</p>
+                        <div class="w-form">
+                           <form id="wf-form-Newsletter-Form-Footer" name="wf-form-Newsletter-Form-Footer" data-name="Newsletter Form Footer" method="get" class="subscribe-form-flex-2">
+                              <div class="subscribe-form-input-wrapper"><label id="subscribe-email" for="email" For="Email">Email</label><input type="email" class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email-2" data-name="Subscriber Email 2" placeholder="" id="email" required=""/></div>
+                              <input type="submit" data-wait="Please wait..." value="Get em&#x27;" class="newsletterbutton w-button"/>
+                           </form>
+                           <div class="success-message w-form-done">
+                              <div>Thank you! Your submission has been received!</div>
+                           </div>
+                           <div class="error-message w-form-fail">
+                              <div>Oops! Something went wrong while submitting the form.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="column-2 w-col w-col-6">
+                     <div class="nl-illustration fade-in" data-w-id="62bc87f8-7489-65b4-43c9-04ed004f9f60" data-animation-type="lottie" data-src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/60cb53f29a7091d382834a9d_lf30_luvskwhu.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="6" data-duration="0"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-text-left">
+               <p class="footer-smallprint">By clicking on some of the links above, you will leave the Cleo website and be directed to a third-party website. The privacy practices of those third parties may differ from those of Cleo. We recommend you review the privacy statements of those third party websites, as Cleo is not responsible for those third parties&#x27; privacy or security practices.<br/>‍<br/>Cleo AI Ltd is registered and incorporated in England and Wales, company registration number 09864205.<br/>Cleo AI Ltd is registered with the Financial Conduct Authority (reference 806670) under the Payment Services Regulations 2017.<br/>‍</p>
+            </div>
+            <div class="footer-text-right">
+               <p class="footer-smallprint">Copyright</p>
+            </div>
+         </div>
+      </footer> -->
+
+
+     
+      <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60b118690f8e028ab7d93790" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://assets-global.website-files.com/60b118690f8e028ab7d93790/js/cleo-website.c50b26270.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--><script src="https://assets.meetcleo.com/webflow_js/scripts.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+      
+      <script type="text/javascript">
+         $( document ).ready(function() {
+             $('.testimonial-list').slick({
+                 dots: false,
+                 speed: 400,
+                 infinite: true,
+                 slidesToShow: 3,
+                 slidesToScroll: 1,
+                 autoplay: true,
+                 autoplaySpeed: 4000,
+                 arrows: false,
+                 touchThreshold: 300,
+                 centerMode: true,
+                 swipeToSlide: true,
+                 focusOnSelect: true,
+                 cssEase: 'cubic-bezier(.215, .61, .355, 1)',
+                 responsive: [
+                 {
+                     // tablet
+                     breakpoint: 992,
+                     settings: {
+                         slidesToShow: 2
+                     }
+                 },
+                 {
+                     // mobile landscape
+                     breakpoint: 768,
+                     settings: {
+                         slidesToShow: 1
+                     }
+                 },
+                 {
+                     // mobile portrait
+                     breakpoint: 480,
+                     settings: {
+                         slidesToShow: 1,
+                         centerMode: false
+                     }
+                 }
+                 ]
+             });
+             
+             $('.slider-prev').click(function(){
+                 $(this).closest('.testimonial-list').find(".drag-list").slick('slickPrev');
+             });
+             
+             $('.slider-next').click(function(){
+                 $(this).closest('.testimonial-list').find(".drag-list").slick('slickNext');
+             });
+             
+         });
+         
+         var popup = document.getElementById('consentPopup');
+         var alreadyAccepted = window.localStorage.getItem('fbGrantConsent') !== null;
+         
+         //Show the consent banner if consent is not granted, hide it if consent is already granted.
+         if (alreadyAccepted) {
+             if (alreadyAccepted === 'true') {
+                 fbq('consent', 'grant');
+             }
+             popup.style.display = 'none';
+         } else {
+             popup.style.display = 'flex';
+         }
+         
+         //Grant consent and store it in localStorage of the browser
+         var consentBtn = document.getElementById('consentBtn');
+         consentBtn.addEventListener("click", function() {
+             fbq('consent', 'grant');
+             window.localStorage.setItem('fbGrantConsent', 'true');
+         });
+         
+         var rejectBtn = document.getElementById('rejectBtn');
+         rejectBtn.addEventListener("click", function() {
+             window.localStorage.setItem('fbGrantConsent', 'false');
+         });
+      </script>
+   </body>
+</html>
